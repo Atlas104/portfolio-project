@@ -51,3 +51,60 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+
+/* Improved navigation links */
+nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #3b7194;
+    text-decoration: none;
+}
+
+/* Improve the appearance of project sections */
+#projects h3 {
+    color: #28618a;
+    margin-top: 25px;
+    border-bottom: 2px solid #d9e6ef;
+    padding-bottom: 8px;
+}
+
+/* Add hover effects to content sections */
+section {
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+section:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
+}
+
+/* Improve paragraph readability */
+p {
+    line-height: 1.7;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    header {
+        padding: 25px 15px;
+    }
+
+    nav a {
+        margin: 5px;
+        padding: 8px 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
